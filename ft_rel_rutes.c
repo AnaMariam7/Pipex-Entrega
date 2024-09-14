@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_rel_rutes.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: anmaher- <anmaher-@student.42madrid.com>   +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/09/14 13:49:04 by anmaher-          #+#    #+#             */
+/*   Updated: 2024/09/14 13:49:06 by anmaher-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 
 #include "libft/libft.h"
 #include "pipex.h"
@@ -59,7 +71,6 @@ void ft_working_rel_rute(t_pipex *pipex,char *argv)
 	pipex->cmd = ft_split(argv, ' ');
     if(!pipex->path)
     {
-    printf("Entra en ERROR PATH");
         ft_errors_manual(": command not found", pipex->cmd[0]);
         ft_free_p(pipex->cmd);
         exit(errno);
