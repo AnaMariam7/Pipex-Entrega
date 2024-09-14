@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bargarci <bargarci@student.42madrid>       +#+  +:+       +#+        */
+/*   By: anmaher- <anmaher-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/17 20:57:26 by bargarci          #+#    #+#             */
-/*   Updated: 2023/04/17 20:57:31 by bargarci         ###   ########.fr       */
+/*   Created: 2023/04/17 20:57:26 by anmaher-          #+#    #+#             */
+/*   Updated: 2023/04/17 20:57:31 by anmaher-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"

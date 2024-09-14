@@ -3,9 +3,9 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back_bonus.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bargarci <bargarci@student.42madrid>       +#+  +:+       +#+        */
+/*   By: anmaher- <anmaher-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/17 20:50:30 by bargarci          #+#    #+#             */
+/*   Created: 2023/04/17 20:50:30 by anmaher-          #+#    #+#             */
 /*   Updated: 2024/07/01 23:14:55 by anmaher-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */

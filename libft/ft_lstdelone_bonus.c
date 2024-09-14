@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone_bonus.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bargarci <bargarci@student.42madrid>       +#+  +:+       +#+        */
+/*   By: anmaher- <anmaher-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/17 20:52:01 by bargarci          #+#    #+#             */
-/*   Updated: 2023/04/17 20:52:07 by bargarci         ###   ########.fr       */
+/*   Created: 2023/04/17 20:52:01 by anmaher-          #+#    #+#             */
+/*   Updated: 2023/04/17 20:52:07 by anmaher-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"

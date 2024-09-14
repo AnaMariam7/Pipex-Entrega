@@ -26,7 +26,6 @@ char *ft_lookforpath(t_pipex *pipex)
 
 void ft_lookforrute(t_pipex *pipex)
 {
-    //printf("Entra en LFR");
     int j;
     j = 0;
 	char *tmp_rute;
@@ -46,7 +45,6 @@ void ft_lookforrute(t_pipex *pipex)
     if(pipex->main_rute == NULL)
     {
         ft_errors_manual(": command not found", pipex->cmd[0]);
-        /*free(tmp_rute);*/
         free(pipex->main_cmd);
         ft_free_p(pipex->path_rutes);
         ft_free_p(pipex->cmd);
@@ -57,7 +55,6 @@ void ft_lookforrute(t_pipex *pipex)
 
 void ft_working_rel_rute(t_pipex *pipex,char *argv)
 {   
-    /*printf("Entra en WRL");*/
     pipex->path = ft_lookforpath(pipex);
 	pipex->cmd = ft_split(argv, ' ');
     if(!pipex->path)

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bargarci <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: anmaher- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/14 19:07:02 by bargarci          #+#    #+#             */
-/*   Updated: 2023/04/17 19:40:14 by bargarci         ###   ########.fr       */
+/*   Created: 2023/03/14 19:07:02 by anmaher-          #+#    #+#             */
+/*   Updated: 2024/08/03 13:14:32 by anmaher-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -33,8 +33,8 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	{
 		while (i < len)
 		{
-		dst1[i] = src1[i];
-		i++;
+			dst1[i] = src1[i];
+			i++;
 		}
 	}
 	return (dst);

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bargarci <bargarci@student.42madrid.com>   +#+  +:+       +#+        */
+/*   By: anmaher- <anmaher-@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/29 18:44:05 by bargarci          #+#    #+#             */
-/*   Updated: 2023/04/17 19:53:11 by bargarci         ###   ########.fr       */
+/*   Created: 2023/03/29 18:44:05 by anmaher-          #+#    #+#             */
+/*   Updated: 2024/08/03 11:49:45 by anmaher-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -51,7 +51,7 @@ char	**ft_free(char **str, int j)
 
 	i = 0;
 	while (i < j)
-	{	
+	{
 		free(str[i]);
 		i++;
 	}

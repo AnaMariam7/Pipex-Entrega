@@ -22,15 +22,6 @@ void ft_open_txt(t_pipex *pipex)
         return;
 }
 
-/*void set_pipe(t_pipex *pipex)
-{
-    if (pipe(pipex->pipefd) == -1)
-{
-        printf("Error in pipe");
-        exit(1);
-    }
-}*/
-
 int main(int argc, char **argv, char **env)
 {
 	if (!env)
@@ -49,20 +40,15 @@ int main(int argc, char **argv, char **env)
         ft_open_txt(&pipex);
         set_pipe(&pipex);
         pipex.pid[0] = fork();
-        //printf("previo error 1 fork\n");
         if(pipex.pid[0]==-1)
         {
             perror("Error fork");
             exit(1);
         }
-        //printf("Desp error 1 fork\n");
         if(pipex.pid[0] == 0)
         {
-            //printf("hijo 1 fork\n");
             ft_first_child(&pipex, argv[2]);
-            //printf("hijo 1 Desp FC\n");
         }
-        //printf("idsp condicional hijo 1 fork\n");
         pipex.pid[1] = fork();
         if(pipex.pid[1] == -1)
         {

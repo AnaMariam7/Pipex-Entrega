@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bargarci <bargarci@student.42madrid>       +#+  +:+       +#+        */
+/*   By: anmaher- <anmaher-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/17 20:39:51 by bargarci          #+#    #+#             */
-/*   Updated: 2023/04/17 20:40:45 by bargarci         ###   ########.fr       */
+/*   Created: 2023/04/17 20:39:51 by anmaher-          #+#    #+#             */
+/*   Updated: 2023/04/17 20:40:45 by anmaher-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
