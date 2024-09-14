@@ -6,7 +6,7 @@
 /*   By: anmaher- <anmaher-@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/14 13:50:02 by anmaher-          #+#    #+#             */
-/*   Updated: 2024/09/14 13:50:04 by anmaher-         ###   ########.fr       */
+/*   Updated: 2024/09/14 16:57:59 by anmaher-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 #include <stdio.h>
 #include <sys/wait.h>
 #include <unistd.h>
-
 
 void	ft_errors_manual(char *s, char *argv)
 {
@@ -31,25 +30,31 @@ void	ft_errors(char *s)
 	exit(errno);
 }
 
-void set_pipe(t_pipex *pipex)
+void	set_pipe(t_pipex *pipex)
 {
-    if (pipe(pipex->pipefd) == -1)
-{
-        printf("Error in pipe");
-        exit(1);
-    }
+	if (pipe(pipex->pipefd) == -1)
+	{
+		perror("Error in pipe");
+		exit(1);
+	}
 }
 
-int ft_free_p(char **str)
+void	ft_error_fork(void)
 {
-    int i;
+	perror("Error fork");
+	exit(1);
+}
 
-    i = 0;
-    while(str[i])
-    {
-        free(str[i]);
-        i++;
-    }
-    free(str);
-    return(0);
+int	ft_free_p(char **str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		free(str[i]);
+		i++;
+	}
+	free(str);
+	return (0);
 }

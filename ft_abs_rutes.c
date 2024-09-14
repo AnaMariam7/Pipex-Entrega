@@ -52,7 +52,7 @@ void	ft_lookforcmd(t_pipex *pipex, char *argv)
 {
 	char	**matrix;
 	int		i;
-	
+
 	matrix = ft_split(argv, '/');
 	i = 0;
 	while (matrix[i] != 0)
